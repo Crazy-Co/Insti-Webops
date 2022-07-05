@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:azure;
+}
+
+/* Navbar css */
+
+.navbar{
+    color: aliceblue;
+    background-color: rgb(67, 24, 110);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 67px;
+}
+
+.nav{
+    /* display: inline-block; */
+    width: 50%;
+    height: inherit;
+    min-height: 50px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.left_nav{
+    background-color: #4d0778;
+    width: 40%;
+}
+
+.logo img{
+    width: 5rem;
+    margin: 0px 20px;
+}
+
+.title{
+    margin: 0px auto;
+    font-size: 40px;
+    color: whitesmoke;
+    border: 4px double white;
+    padding: 3px 15px;
+}
+
+.right_nav{
+background-color:black;
+width: 60%;
+}
+
+.right_nav .list{
+    width: 100%;
+    list-style: none;
+    padding: 16px 9px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.right_nav .list .list_item a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 18px;
+    padding: 8px 22px;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+
+.right_nav .list .list_item a:hover{
+    color: #f3ff7c;
+    background-color: rgb(63 0 74 / 59%);
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.search{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+    width: 50%;
+    height: auto;
+}
+
+.search_box {
+    background-color: rgb(77 7 120 / 49%);
+    /* background-color: #4d0778; */
+    color: white;
+    padding: 8px;
+    margin: 0px 5px;
+    cursor: pointer;
+    border: 4px double white;
+    border-radius: 35px;
+    text-align: center;
+}
+
+/* main css */
+
+.main{
+    height: 100vh;
+    width: 95vw;
+    background-color: rgb(182, 207, 236);
+    display: block;
+    margin: 0px auto;
+    padding: 10px;
+    position: relative;
+
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
