@@ -23,10 +23,10 @@
 
         <div class="nav right_nav">
             <ul class="list">
-                <li class="list_item"><a href="#home"> Home </a></li>
-                <li class="list_item"><a href="#about"> About </a></li>
-                <li class="list_item"><a href="#contact"> Contact </a></li>
-                <li class="list_item"><a href="#more"> More </a></li>
+                <li class="list_item"><a href="https://mail.google.com/mail/u/0/?pli=1#inbox"> Gmail </a></li>
+                <li class="list_item"><a href="https://drive.google.com/drive/my-drive"> Drive </a></li>
+                <li class="list_item"><a href="https://www.youtube.com/"> Youtube </a></li>
+                <li class="list_item"><a href="https://www.google.co.in/imghp?hl=en&ogbl "> Images </a></li>
             </ul>
             <div class="search">
                 <input class="search_box" type="search" name="search" id="search_box" placeholder="Search here">
@@ -39,8 +39,12 @@
     <!-- Search Box -->
     <div class="main">
         <div class="main_search">
+            <div class="google_img">
+                <img src="https://th.bing.com/th/id/R.4aa108082e7d3cbd55add79f84612aaa?rik=I4dbPhSe%2fbHHSg&riu=http%3a%2f%2fpurepng.com%2fpublic%2fuploads%2flarge%2fpurepng.com-google-logo-2015brandlogobrand-logoiconssymbolslogosgoogle-6815229372333mqrr.png&ehk=ewmaCOvP0Ji4QViEJnxSdlrYUrTSTWhi8nZ9XdyCgAI%3d&risl=&pid=ImgRaw&r=0" alt="google" class="google_img">
+            </div>
             <div class="container">
-                <input class="search_box bg_transperant" type="search" name="search" id="srch">
+                <input class="search_box bg_transperant" type="search" name="search" id="srch"
+                    placeholder="Ask me Anything you want!!" onclick="google()">
             </div>
         </div>
         <div class="box" id="fav_items">
@@ -50,31 +54,33 @@
             </div>
             <div class="box_items">
                 <img src="logo.svg" alt="google" class="icon" id="icon2">
-                <a href="#" class="anchor">IITM</a>
+                <a href="https://www.iitm.ac.in/403?r=2" class="anchor">IITM</a>
             </div>
             <div class="box_items">
                 <img src="moodle-m-with-grid.png" alt="google" class="icon" id="icon3">
-                <a href="#" class="anchor">Moodle</a></div>
+                <a href="https://coursesnew.iitm.ac.in/login/index.php" class="anchor">Moodle</a>
+            </div>
             <div class="box_items">
                 <img src="github-logo_icon-icons.com_73546.webp" alt="google" class="icon" id="icon4">
-                <a href="#" class="anchor">Github</a>
+                <a href="https://github.com/" class="anchor">Github</a>
             </div>
             <div class="box_items">
-                <img src="Google_icon-icons.com_66793.png" alt="google" class="icon" id="icon5">
-                <a href="#" class="anchor">Add More</a>
+                <img src="https://as2.ftcdn.net/v2/jpg/00/70/16/29/1000_F_70162903_5mFpUbO3ZfRyD4gslH8j2c5VxjGMKU9G.jpg"
+                    alt="google" class="icon" id="icon5">
+                <a href="#" class="anchor" onclick="addbox()" ondblclick="openYT()">Add More</a>
             </div>
         </div>
-        
+
         <!-- Footer -->
         <div class="footer">
             <p>IIT Madras</p>
             <p>This website is designed by Khushdev Yogi #CrazyCoder</p>
             <p>&copy Copyright 2022</p>
         </div>
-        <!-- Footer end --> 
+        <!-- Footer end -->
     </div>
     <!-- Search Box end -->
-    
+    <script src="script.js"></script>
 </body>
 
 </html>
